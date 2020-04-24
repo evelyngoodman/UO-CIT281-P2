@@ -33,6 +33,7 @@ body {
   grid-template-rows: repeat(2, 100px);
 }
 
+
 .c {
   grid-row: 2;
   text-align: center;
@@ -41,13 +42,17 @@ body {
 button {
   font: bold 24px Arial;
   background-color: black;
-  color: lime;
+  color: lightblue;
   padding: 2px 6px 2px 6px;
   border-radius: 10px;
   border: 1px solid #CCCCCC;
 }
 
-#lead-photo {
+input[type=text]{
+  font-size: 18px;
+}
+
+img {
   width: 200px;
   margin: auto;
   padding: 1em;
